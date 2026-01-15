@@ -14,6 +14,18 @@ function App() {
       >
       </div>
       <img 
+        src="/skeleton-with-glasses.gif" 
+        alt="Skeleton" 
+        className="absolute"
+        style={{
+          left: '562px',
+          top: '191px',
+          width: '73px',
+          height: 'auto',
+          zIndex: 20
+        }}
+      />
+      <img 
         src="/id card.png" 
         alt="ID Card" 
         className="absolute"
